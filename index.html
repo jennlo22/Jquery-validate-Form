@@ -1,0 +1,71 @@
+<html>
+    <title>Formulario JQUERY</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+</html>
+<body>
+    <div class="container">
+        <div id="userRegister" class="ctn-form">
+            <h2>Regístrate aquí y entérate de todas las ofertas</h2> 
+            <form id="form-register">
+                <div class="boxImputForm clearfix">
+                    <div class="clearfix">
+                        <div class="col-sm-6 clearfix">
+                            <div class="form-group">
+                                <img src="img/icoUsuario.png" alt="HOTSALE 2019" />
+                                <input type="text" name="nombre" class="form-control required" placeholder="Nombre" data-bind="value: Name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 left-bar clearfix">
+                            <div class="form-group">
+                                <img src="img/icoUsuario.png" alt="HOTSALE 2019" />
+                                <input type="text" name="apellido" class="form-control required" placeholder="Apellido" data-bind="value: LastName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hrStyle clearfix"></div>
+                    <div class="clearfix">
+                        <div class="col-sm-6 clearfix">
+                            <div class="form-group">
+                                <img src="img/icoMail.png" alt="HOTSALE 2019" />
+                                <input type="text" name="email" class="form-control required" placeholder="E-mail" data-bind="value: Email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 left-bar clearfix">
+                            <div class="form-group">
+                                <img src="img/icoPhone.png" alt="HOTSALE 2019" />
+                                <input type="text" name="telefono" class="form-control required" placeholder="Teléfono" data-bind="value: Phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hrStyle clearfix"></div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="terminosPoliticas" class="required" data-bind="checked: Term" />
+                    <label>
+                        Soy mayor de edad y acepto las
+                        <a href="files/pdf/Ley-1581-de-2012.pdf" target="_blank">
+                            Políticas de privacidad
+                        </a>
+                        los
+                        <a href="files/pdf/Ley-1581-de-2012.pdf">
+                            Términos y condiciones
+                        </a>
+                        del portal.
+                    </label>
+                </div>
+                <div class="col-sm-6 col-md-12 group-btn">
+                    <button type="submit" class="btn btn-primary btnEnviar">Registrar</button>
+                </div>
+                </div>
+                <div class="texto-errores"></div>
+            </form>
+    </div>
+</body>

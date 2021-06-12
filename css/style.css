@@ -1,0 +1,21 @@
+.form-group img{
+    max-width: 5%;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.checkbox {
+    width: 60%;
+    margin-left: 4%;
+}
+
+.group-btn{
+    text-align: center;
+}
+
+.error{
+   color: brown; 
+}
